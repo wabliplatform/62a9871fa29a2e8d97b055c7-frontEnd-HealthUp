@@ -6,4 +6,4 @@ document.getElementById('il5w').onclick = (event) => {
     event.preventDefault();
     {  location.href= '/AppList' ;}};document.getElementById('ig8m6').onclick = (event) => {
     event.preventDefault();
-    {  location.href= '/Page3' ;}};window.onload = () => {};
+    {  location.href= '/newApp' ;}};window.onload = () => {};

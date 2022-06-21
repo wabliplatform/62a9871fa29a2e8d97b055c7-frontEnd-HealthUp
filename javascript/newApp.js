@@ -4,7 +4,7 @@ let apiAppApi = new TempApi.AppApi();import TempApi from '../src/index';let app 
     event.preventDefault();
     {  location.href= '/Homepage' ;}};document.getElementById('iplau').onclick = (event) => {
     event.preventDefault();
-    {  location.href= '/Page3' ;}};
+    {  location.href= '/newApp' ;}};
  function calculateSize(img, maxWidth, maxHeight) {
       let width = img.width;
       let height = img.height;

@@ -4,7 +4,7 @@ module.exports = {
   entry: {
 	'Homepage' : './javascript/Homepage.js',
 	'AppList' : './javascript/AppList.js',
-	'Page3' : './javascript/Page3.js',
+	'newApp' : './javascript/newApp.js',
 },
   output: {
     path: path.resolve(__dirname, 'dist'),

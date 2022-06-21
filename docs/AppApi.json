@@ -1,0 +1,73 @@
+
+[{
+    "methodType":"POST",
+    "methodName":"createapp",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"App"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiAppApi = new TempApi.AppApi();",
+    "importModelParameter":["let app = new TempApi.App();"],
+    "modelNames":["app"],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiAppApi.createapp( app, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"DELETE",
+    "methodName":"deleteapp",
+    "returnType":{
+
+      "primitive":"true",
+      "type":"null"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiAppApi = new TempApi.AppApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiAppApi.deleteapp( appId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');/**nextFunction*/}});"
+  },{
+    "methodType":"GETALL",
+    "methodName":"getAllapp",
+    "returnType":{
+      "primitive":false,
+      "jsType":"Array",
+      "modelName":"[App]"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiAppApi = new TempApi.AppApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiAppApi.getAllapp((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"GET",
+    "methodName":"getapp",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"App"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiAppApi = new TempApi.AppApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiAppApi.getapp( appId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  },{
+    "methodType":"PUT",
+    "methodName":"updateapp",
+    "returnType":{
+      "primitive":false,
+      "jsType":"",
+      "modelName":"App"
+    },
+    "importStatement":"import TempApi from '../src/index';",
+    "apiInstance":"let apiAppApi = new TempApi.AppApi();",
+    "importModelParameter":[],
+    "modelNames":[],
+    "functionNextTemplate":"/**nextFunction*/",
+    "apiCallPromisified":"apiAppApi.updateapp( appId, opts, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); /**nextFunction*/}});"
+  }
+]

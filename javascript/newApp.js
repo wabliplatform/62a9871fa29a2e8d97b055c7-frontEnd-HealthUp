@@ -2,7 +2,9 @@ let apiAppApi = new TempApi.AppApi();import TempApi from '../src/index';let app 
     event.preventDefault();
     {  location.href= '/Homepage' ;}};document.getElementById('imobl').onclick = (event) => {
     event.preventDefault();
-    {  location.href= '/Homepage' ;}};document.getElementById('iplau').onclick = (event) => {
+    {  location.href= '/Homepage' ;}};document.getElementById('iha8q').onclick = (event) => {
+    event.preventDefault();
+    {  location.href= '/AppList' ;}};document.getElementById('iplau').onclick = (event) => {
     event.preventDefault();
     {  location.href= '/newApp' ;}};
  function calculateSize(img, maxWidth, maxHeight) {

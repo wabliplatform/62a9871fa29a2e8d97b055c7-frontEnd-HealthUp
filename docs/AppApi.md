@@ -1,6 +1,6 @@
 # TempApi.AppApi
 
-All URIs are relative to *http://localhost:8090/v1*
+All URIs are relative to *http://83.212.100.226:3007/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
